@@ -59,7 +59,7 @@ export const padsData = [
         id:"C",
         name: "Closed-HH",
         color: "#F282A1",
-        url:"https://cdn.freecodecamp.org/testable-projects-fcc/audio/RP4_KICK_1.mp3",
+        url:"https://cdn.freecodecamp.org/testable-projects-fcc/audio/Cev_H2.mp3",
         on: true
     } 
 ]
