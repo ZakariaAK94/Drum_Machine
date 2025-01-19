@@ -1,0 +1,68 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#root{
+  height: 100vh;
+  font-family: Helvetica, Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+#drum-machine
+{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: repeat(3, 85px);
+  grid-template-rows: repeat(3, 85px);
+}
+
+button {
+  height: 80px;
+  width: 80px;
+  border: 3px solid transparent; 
+  border-radius: 5px;
+  cursor: pointer;   
+  opacity: 0.5;
+  transition: all 0.5s;
+}
+
+.clicked {
+  border: 10px solid white; 
+}
+
+button.on {
+  opacity: 1;
+} 
+
+.clip
+{
+  width: 80px;
+  height: 40px;
+}
+
+.btn-control
+{
+  height: 40px;
+  width: 55px;
+  border: 3px solid transparent;
+  border-radius: 50px;
+  cursor: pointer;   
+  transition: border 0.5s;
+}
+
+.volume-control {
+  width: 100px;
+  margin-left: 40px;
+}
